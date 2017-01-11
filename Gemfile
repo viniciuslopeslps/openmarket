@@ -15,6 +15,12 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
+# Flexible authentication solution for Rails with Warden. http://blog.plataformatec.com.br/tag/…
+gem 'devise'
+
+#Translations for the devise gem
+gem 'devise-i18n'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -35,6 +41,8 @@ end
 group :development do
   #Better Errors replaces the standard Rails error page with a much better and more useful error page.
   gem "better_errors"
+  # Generate Entity-Relationship Diagrams for Rails applications http://voormedia.github.io/rails-erd/
+  gem "rails-erd"
 end
 #Repository for collecting Locale data for Ruby on Rails I18n as well as other interesting, Rails related I18n stuff http://rails-i18n.org
 gem 'rails-i18n'
