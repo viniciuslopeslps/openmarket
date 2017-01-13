@@ -50,6 +50,9 @@ gem 'rails-i18n'
 #Rails gem of the Bootstrap based admin theme SB Admin 2. http://dreamingechoes.github.io/boots…
 gem 'bootstrap_sb_admin_base_v2'
 
+#The most popular front-end framework for developing responsive, mobile first projects on the web.
+gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
